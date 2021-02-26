@@ -1,0 +1,61 @@
+.Menu{
+    position: relative;
+    top: 0;
+    left: 0;
+    background: url(../sources/Menu.jpg) no-repeat center center fixed;
+    background-size: cover;
+    
+    
+
+    height: 100vh;
+    width: 100%;
+    
+}
+
+#menu-img{
+    width: 100%;
+    height: 100vh;
+  
+   
+}
+
+#title{
+    position: absolute;
+    top: 25vh;
+    left: 10vw;
+    color: white;
+    font-size: 2vw;
+    font-family: 'Noto Serif SC', serif;
+    font-weight: 500;
+    letter-spacing: 0.5vw;
+    opacity: 0.9;
+}
+#title-text{
+    position: absolute;
+    top: 39vh;
+    left: 10vw;
+    color: white;
+    font-family: 'Noto Serif SC', serif;
+    font-size: 1.7vw;
+    opacity: 0.8;
+    font-weight: 300;
+    letter-spacing: 0.5vw;
+
+}
+#go-down{
+    position: absolute;
+    height: 5vw;
+    width: 5vw;
+    border-radius: 50%;
+    border: none;
+    top: 88%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    font-size: 1vw;
+    text-align: center;
+    color: white;
+    background: linear-gradient(73.97deg, rgba(251, 167, 3, 0.88) -20.98%, rgba(251, 92, 3, 0) 116.54%);
+    cursor: pointer;
+    outline:none;
+}

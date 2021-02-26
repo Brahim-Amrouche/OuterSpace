@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 2vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+@import "_menu";
+@import "_navbar";
+@import "_discover";
+@import "_exemple";
+@import "_footer.scss";

@@ -1,0 +1,67 @@
+.navbar{
+    position: absolute;
+    height: 4vw;
+    
+   
+    width: 100%;
+    top: 0;
+    left: 0;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+}
+#icon{
+    position: relative;
+    width: 10%;
+    height: 4vw;
+    text-align: center;
+    transform: translateY(15%);
+
+}
+#navigation-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    margin-top: 0.5vw;
+    width: 40%;
+    height: 4vw;
+    
+    li{
+        display: block;
+        width: 15%;
+        height: 4vw;
+        
+    }
+    a{  
+        display: block;
+        width: 100%;
+        height: 2vw;
+        margin-top: 0.5vw;
+       
+        
+        font-size: 1vw;
+        font-weight: 500;
+        text-align: center;
+        line-height: 2vw;
+        background-blend-mode: hard-light;
+        opacity: 0.9;
+        border-radius: 1.5vw;
+    }
+}
+#btn-A{
+    background:#F05454;
+    color:#222831;
+}
+#btn-B{
+    background: #30475e;
+    color:#E8E8E8;
+    
+}
+#btn-C{
+    background: #E8E8E8;
+    color:#222831;
+}

@@ -1,3 +1,7 @@
+# Description
+
+This App is Created to Test Out Jquery In Different Ways , as Well as The figma Design I Made for it , it's still not mobile responsive and just a static webpage.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
